@@ -1,0 +1,11 @@
+CHIP Xor {
+    IN a,b;
+    OUT out;
+
+    PARTS:
+    Not(in = a, out = notA);
+    Not(in = b, out = notB);
+    Or(a = a, b = notB , out = aNotb);
+    Or(a = b, b = notA, out = bNotA);
+    Nand(a = aNotb, b=bNotA, out = out );
+}
