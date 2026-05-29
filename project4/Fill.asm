@@ -1,17 +1,4 @@
-/*
 
-[--- Écran : 512 pixels de large ---]
-
-Ligne 1 :  [16px] [16px] [16px] ............ [16px]  -> 32 blocs (car 32 * 16 = 512)
-Ligne 2 :  [16px] [16px] [16px] ............ [16px]  -> 32 blocs
-Ligne 3 :  [16px] [16px] [16px] ............ [16px]  -> 32 blocs
-...
-Ligne 256: [16px] [16px] [16px] ............ [16px]  -> 32 blocs
-
--1 binaire = 1111111111111111 (16 pixels noirs)
- 0 binaire = 0000000000000000 (16 pixels blancs)
-
-*/
 
 (LOOP)
     // 1. LECTURE DU CLAVIER
